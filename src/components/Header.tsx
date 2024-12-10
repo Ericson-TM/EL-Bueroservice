@@ -21,7 +21,7 @@ export function Header() {
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 text-center">
         <div className="max-w-3xl mx-auto flex flex-col items-center">
           <img
-              src="/src/images/Bewerbung.jpg"
+              src="/public/images/Bewerbung.jpg"
               alt="Eric Lieberwirth"
               className="w-60 h-60 rounded-full mx-auto mb-8 shadow-xl"
               style={{

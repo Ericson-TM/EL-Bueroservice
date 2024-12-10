@@ -12,7 +12,7 @@ export function Navigation() {
         <div className="flex items-center space-x-8">
           {/* Logo */}
             <img
-                src="/src/images/Logo.png"
+                src="/public/images/Logo.png"
                 alt="Logo"
                 className="w-12 h-12 cursor-pointer"
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}/>
