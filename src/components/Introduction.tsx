@@ -4,7 +4,7 @@ import { SkillsGrid } from './SkillsGrid';
 
 export function Introduction() {
   return (
-    <section id="about" className="py-20 bg-black">
+    <section id="about" className="py-20 bg-gradient-to-b from-black to-gray-900">
       <div className="max-w-6xl mx-auto px-4">
         <motion.div 
           className="max-w-3xl mx-auto mb-16"

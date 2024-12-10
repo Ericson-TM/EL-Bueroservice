@@ -16,7 +16,7 @@ const skillCategories = [
     title: 'Frontend',
     icon: Layout,
     skills: [
-      { name: 'React', level: 80 },
+      { name: 'Vue.js', level: 80 },
       { name: 'TypeScript', level: 85 },
       { name: 'HTML/CSS', level: 90 }
     ],
@@ -27,7 +27,7 @@ const skillCategories = [
     icon: Database,
     skills: [
       { name: 'SQL', level: 95 },
-      { name: 'MongoDB', level: 70 },
+      { name: 'MySQL', level: 70 },
       { name: 'PostgreSQL', level: 85 }
     ],
     color: 'from-green-500/20 to-green-500/5'

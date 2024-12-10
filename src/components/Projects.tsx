@@ -7,7 +7,7 @@ const projects = [
     description: 'A comprehensive business management platform built with Spring Boot and React, streamlining administrative tasks and client management.',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
     technologies: ['Spring Boot', 'React', 'PostgreSQL', 'Docker'],
-    github: 'https://github.com/ericlieberwirth',
+    github: 'https://github.com/ericson-tm',
     live: '#'
   },
   {
@@ -15,22 +15,22 @@ const projects = [
     description: 'An automated inventory tracking system with real-time updates and predictive analytics for stock management.',
     image: 'https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=800&q=80',
     technologies: ['Java', 'Spring Boot', 'MongoDB', 'React'],
-    github: 'https://github.com/ericlieberwirth',
+    github: 'https://github.com/ericson-tm',
     live: '#'
   },
   {
-    title: 'Business Analytics Dashboard',
-    description: 'Interactive dashboard providing real-time business insights and performance metrics visualization.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
-    technologies: ['TypeScript', 'React', 'D3.js', 'Node.js'],
-    github: 'https://github.com/ericlieberwirth',
+    title: 'Little-Energy.de',
+    description: 'Erstellung einer modernen Website für einen führenden Energievertriebler mit einem Fokus auf Benutzerfreundlichkeit und Performance.',
+    image: 'https://plus.unsplash.com/premium_photo-1721830791498-ec809d9d94ec?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    technologies: ['React', 'TypeScript', 'TailwindCSS', 'Node.js'],
+    github: 'https://github.com/ericson-tm',
     live: '#'
   }
 ];
 
 export function Projects() {
   return (
-    <section id="projects" className="py-20 bg-black">
+    <section id="projects" className="py-20 bg-gradient-to-b from-gray-900 to-black shadow-lg">
       <div className="max-w-6xl mx-auto px-4">
         <motion.h2 
           className="text-3xl font-bold text-white mb-12 text-center"

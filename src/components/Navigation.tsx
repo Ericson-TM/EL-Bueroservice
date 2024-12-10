@@ -14,7 +14,8 @@ export function Navigation() {
             <img
                 src="/src/images/Logo.png"
                 alt="Logo"
-                className="w-12 h-12"/>
+                className="w-12 h-12 cursor-pointer"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}/>
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
@@ -30,12 +31,7 @@ export function Navigation() {
             >
               Projects
             </a>
-            <a 
-              href="#contact" 
-              className="text-gray-400 hover:text-white transition-colors text-lg font-medium"
-            >
-              Contact
-            </a>
+
           </div>
 
           {/* Contact Button */}

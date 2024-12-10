@@ -1,4 +1,3 @@
-import React from 'react';
 import { CircularProgress } from './CircularProgress';
 
 const skills = [
@@ -8,13 +7,13 @@ const skills = [
     { name: 'Node.js', proficiency: 75 }
   ]},
   { category: 'Frontend', items: [
-    { name: 'React', proficiency: 80 },
+    { name: 'Vue.js', proficiency: 80 },
     { name: 'TypeScript', proficiency: 85 },
     { name: 'HTML/CSS', proficiency: 90 }
   ]},
   { category: 'Database', items: [
     { name: 'SQL', proficiency: 95 },
-    { name: 'MongoDB', proficiency: 70 },
+    { name: 'MySQL', proficiency: 70 },
     { name: 'PostgreSQL', proficiency: 85 }
   ]},
   { category: 'Tools & Others', items: [
