@@ -33,7 +33,7 @@ export function CallToAction() {
         </motion.p>
 
         <motion.a
-            href="mailto:contact@el.service@gmx.de"
+            href="mailto:el.service@gmx.de"
             className="inline-block bg-white text-black font-semibold px-8 py-3 rounded-lg hover:bg-gray-200 transition-all duration-300 shadow-lg"
             initial={{ scale: 0.9, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
